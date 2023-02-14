@@ -1,0 +1,96 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body {
+
+    background-color: rgb(36, 36, 36);
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(141, 21, 121);
+}
+
+ul {
+
+    
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+
+    line-height: 160px;
+    margin-left: 50px;
+
+    
+
+}
+
+ul li a {
+    
+   text-decoration: none;
+   
+   background-color: forestgreen;
+
+   border-radius: 12px;
+
+   color: goldenrod;
+
+   font-size: 50px;
+   
+   padding: 0 50px;
+   
+    
+}
+
+ul li a:hover {
+    
+    background-color: rgb(41, 168, 41);
+    transition-duration: 200ms;
+     
+ }
+
+ #aboutHead  {
+
+    font-size: 45px;
+    color: white;
+    margin-left: 5%;
+
+}
+
+#homePic {
+
+    border: 5px double;
+    border-color: white;
+    width: 1000px;
+    height: 700px;
+
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/06/13/55/spiral-2721566_960_720.jpg");
+    background-size: 1000px;
+    
+    
+}
+
+#homeHead{
+    float: right;
+    margin-right: 250px;
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#homePicContainer {
+
+    
+   
+}
