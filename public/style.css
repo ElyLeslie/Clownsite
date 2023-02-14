@@ -48,6 +48,8 @@ ul li a {
    font-size: 50px;
    
    padding: 0 50px;
+
+   
    
     
 }
@@ -69,8 +71,8 @@ ul li a:hover {
 
 #homePic {
 
-    border: 5px double;
-    border-color: white;
+    border: 10px solid;
+    border-color: orange;
     width: 1000px;
     height: 700px;
 
