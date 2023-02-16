@@ -3,3 +3,61 @@
     height: 60%;
     width: 20%;
 }
+
+#contactForm{
+
+    float: right;
+    margin-right: 45%;
+   
+}
+
+#contactText{
+
+    color: white;
+    background: rgb(195,34,183);
+    background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.nameandEmail{
+
+    margin-left: 110px;
+    height: 30px;
+    border-radius: 2px;
+    border: 3px solid;
+    border-color: goldenrod;
+}
+
+#messageBox{
+    width: 400px;
+    height: 300px;
+    border-radius: 2px;
+    border: 3px solid;
+    border-color: goldenrod;
+    resize: none;
+
+}
+
+#sendButton{
+    color: goldenrod;
+    background: forestgreen;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: goldenrod;
+    font-size: 50px;
+    margin-left: 110px;
+    transition-duration: 200ms;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#sendButton:hover{
+
+    background: rgb(41, 168, 41);
+}
+
+#sendButton:active{
+
+    font-size: 48px;
+}

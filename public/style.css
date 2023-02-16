@@ -14,7 +14,8 @@ body {
 nav {
     width: 100%;
     height: 100px;
-    background-color: rgb(141, 21, 121);
+    background: rgb(195,34,183);
+    background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
 }
 
 ul {
@@ -45,11 +46,14 @@ ul li a {
 
    color: goldenrod;
 
-   font-size: 50px;
+   font-size: 48px;
    
    padding: 0 50px;
 
    transition-duration: 200ms;
+
+   border: 2px solid;
+   border-color: goldenrod;
    
     
 }

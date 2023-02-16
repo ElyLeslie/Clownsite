@@ -45,7 +45,18 @@
             </header>
 
             <img id="fancyClown" src="FancyClown.png" alt="A clown wearing a top hat and fake mustache smokes a children's pipe with magical, colorful bubbles coming from it.">
-            
+            <div id="contactForm">
+       
+                <form class='contact-us p-0 pt-4' ref={form} onSubmit={sendEmail}>
+                <h1 class='m-5' id="contactText">Contact the Clown</h1>
+                <input type="text" class="nameandEmail" required placeholder='Name' name="user_name" /> <br></br>
+                <input type="email" class="nameandEmail" required placeholder='Email' name="user_email" /><br></br>
+                
+                <textarea class='m-0 contact-text' id="messageBox" name="message" required placeholder='Your message here'></textarea><br></br>
+                <input class="btn btn-primary m-5" id="sendButton"  type="submit" value="Send" />
+              </form>
+              </div>
+        
         </body>
     </head>
 </html>
