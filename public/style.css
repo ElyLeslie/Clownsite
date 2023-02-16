@@ -39,7 +39,7 @@ ul li a {
     
    text-decoration: none;
    
-   background-color: forestgreen;
+   background: forestgreen;
 
    border-radius: 12px;
 
@@ -56,7 +56,7 @@ ul li a {
 
 ul li a:hover {
     
-    background-color: rgb(41, 168, 41);
+    background: rgb(41, 168, 41);
     
      
  }
@@ -88,12 +88,20 @@ ul li a:hover {
     color: white;
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: forestgreen;
-    border-radius: 70px;
-    
+    background: rgb(195,34,183);
+    background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
+    border-radius: 10px;
 }
 
-#twitchImg, #discordImg, #gameImg{
+
+
+#koveeP, #clownP
+{ 
+    margin-left: 75px;
+
+}
+
+.logoImg{
     margin: 00px 00px 10px 50px ;
     
     width: 60px;
@@ -101,7 +109,7 @@ ul li a:hover {
     transition-duration: 200ms;
 }
 
-#twitchImg:hover, #discordImg:hover, #gameImg:hover{
+Img:hover{
     width: 70px;
     height: 70px;
     

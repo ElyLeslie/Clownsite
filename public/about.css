@@ -3,5 +3,36 @@
     font-size: 45px;
     color: white;
     margin-left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(195,34,183);
+    background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
+    border-radius: 10px;
 
 }
+
+
+
+.screenshot{
+    background: rgb(195,34,183);
+    background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 10px solid;
+    border-color: rgb(90, 27, 85);
+    border-radius: 5px;
+    height: 260px;
+    width: 600px;
+}
+
+.aboutPara{
+    color: white;
+    float: right;
+    width: 25%;
+    padding: 2%;
+    border: 4px solid;
+    border-color: rgb(90, 27, 85);
+    font-size: larger;
+    
+}
+
