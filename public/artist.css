@@ -1,0 +1,39 @@
+#artistHead { font-size: 45px;
+    color: white;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(195,34,183);
+    background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
+    border-radius: 10px; }
+
+    p {
+        color: White;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 45px;
+    }
+
+    #tansartowrkImg{
+
+        margin-left: 19%;
+    }
+
+    #tansartworkP{
+        padding-right: 49%;
+ 
+    }
+
+
+
+    .artistIMG{
+        width: 150px;
+        height: 150px;
+        margin-left: 10%;
+        transition-duration: 200ms;
+    }
+
+    .artistIMG:hover{
+        width: 160px;
+        height: 160px;
+    }
+
+    #VampyP{ padding-left: 190px;}

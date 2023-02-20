@@ -23,6 +23,12 @@
     border-radius: 5px;
     height: 260px;
     width: 600px;
+    transition-duration: 200ms;
+}
+
+.screenshot:hover{
+    height: 265px;
+    width: 605px;
 }
 
 .aboutPara{
