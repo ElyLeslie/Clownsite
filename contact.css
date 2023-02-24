@@ -55,6 +55,7 @@
 #sendButton:hover{
 
     background: rgb(41, 168, 41);
+    cursor: pointer;
 }
 
 #sendButton:active{

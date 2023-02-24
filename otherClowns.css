@@ -1,0 +1,48 @@
+#clownsHead { font-size: 45px;
+    color: white;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(195,34,183);
+    background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
+    border-radius: 10px; }
+
+    .clownImgs {
+
+        width: 600px;
+        height: 400px;
+        transition-duration: 200ms;
+        
+    }
+
+    .clownImgs:hover {
+
+        width: 605px;
+        height: 405px;
+    }
+
+    .clownTags{
+        color: white;
+        font-size: 40px;
+        margin-left: 5%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background: rgb(195,34,183);
+        background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
+        border-radius: 10px;
+    }
+
+    .aboutthisClown {
+        color: white;
+    float: right;
+    width: 25%;
+    padding: 2%;
+    border: 4px solid;
+    border-color: rgb(90, 27, 85);
+    font-size: larger;
+    transition-duration: 200ms;
+        
+    }
+
+    .aboutthisClown:hover{
+
+        background-color: rgb(39, 39, 39);
+    }

@@ -6,7 +6,7 @@
     background: linear-gradient(0deg, rgba(195,34,183,1) 0%, rgba(119,253,45,1) 100%);
     border-radius: 10px; }
 
-    p {
+    #VampyP, #tansartworkP {
         color: White;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 45px;
